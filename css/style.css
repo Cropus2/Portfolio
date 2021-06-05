@@ -58,6 +58,10 @@
     width: 90rem;
 }
 
+.radius {
+    border-radius: 50%;
+}
+
 .site-main .site-banner .site-buttons .primary-button a {
     text-decoration: none;
     color: whitesmoke;
@@ -101,6 +105,11 @@
 
 .site-main .about-area .primary-button:hover a {
     color: var(--primary-color);
+}
+
+.site-main .about-area .about-image > img {
+    height: 631px;
+    border-radius: 40%;
 }
 
 /*End About*/
