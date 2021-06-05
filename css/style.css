@@ -41,8 +41,9 @@
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 15%;
     font-weight: 500;
+    font-size: 3rem;
 }
 
 .site-main .site-banner .site-title h1{
@@ -50,7 +51,7 @@
 }
 
 .site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .site-main .site-banner .banner-img > img{
