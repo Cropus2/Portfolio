@@ -72,5 +72,3 @@
         padding: 3% 4%;
     }
 }
-
-@media (max-width: 991px) and (min-width: 0px) { .owl-stage-outer { width: 100%; } }
