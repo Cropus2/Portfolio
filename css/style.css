@@ -136,9 +136,9 @@
     transform: scale(1.1);
 }
 
-.site-main .brand .first-row .col-lg-4 > .single-brand:hover > img {
-    filter: brightness(0.15);
-}
+/*.site-main .brand .first-row .col-lg-4 > .single-brand:hover > img {*/
+/*    filter: brightness(0.15);*/
+/*}*/
 
 .site-main .brand .experience {
     padding-left: 1rem;
