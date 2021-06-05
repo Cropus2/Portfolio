@@ -72,12 +72,3 @@
         padding: 3% 4%;
     }
 }
-
-@media (max-width: 767px) and (min-width: 544px) {
-    .owl-stage-outer {
-        width: 547px;
-    }
-    .owl-prev, .owl-next {
-        top: 65%;
-    }
-}
