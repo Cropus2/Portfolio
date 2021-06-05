@@ -11,26 +11,28 @@ $(document).ready(function() {
         return false;
     })
 
-    $('.project-area .button-group #btn1').trigger('click');
+    window.onload = () => {
+        $('.project-area .button-group #btn1').trigger('click');
 
-    $('.project-area .grid .test-popup-link').magnificPopup({
-        type: 'image',
-        gallery: { enabled: true }
-    });
+        $('.project-area .grid .test-popup-link').magnificPopup({
+            type: 'image',
+            gallery: { enabled: true }
+        });
 
-    $('.site-main .about-area .owl-carousel').owlCarousel({
-        loop: true,
-        autoplay: true,
-        dots: true,
-        responsive:{
-            0: {
-                items: 1
-            },
-            544: {
-                items: 2
+        $('.site-main .about-area .owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            dots: true,
+            responsive:{
+                0: {
+                    items: 1
+                },
+                544: {
+                    items: 2
+                }
             }
-        }
-    })
+        })
+    }
 
     let nav_offset_top = $('.header_area').height() + 50;
 
