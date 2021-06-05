@@ -2,3 +2,8 @@
     font-family: "Langar";
     src: url("../fonts/Langar/Langar-Regular.ttf");
 }
+
+@font-face {
+    font-family: "Lobster";
+    src: url("../fonts/Lobster/Lobster-Regular.ttf");
+}
