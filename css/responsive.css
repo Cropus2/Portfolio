@@ -55,3 +55,48 @@
         padding: 3% 4%;
     }
 }
+
+@media only screen and (min-width: 1px) and (max-width: 992px) {
+    .site-main .site-banner .site-title h3{
+        padding-top: 0;
+    }
+
+    .site-main .site-banner .site-title{
+        margin-bottom: 3rem;
+    }
+
+    .site-main .about-area .about-image > img {
+        display: none;
+    }
+
+    .site-main .about-area {
+        padding-top: 0;
+    }
+
+    .site-main .brand,
+    .site-main .services-area,
+    .site-main .project-area,
+    .site-main .about-area,
+    footer.footer-area{
+        padding-top: 5rem;
+    }
+
+    .site-main .brand .experience .years-area {
+        height: 11rem;
+    }
+
+    .site-main > .services-area .services{
+        margin: 1rem auto;
+    }
+
+    .site-main .brand .experience{
+        padding: 0;
+    }
+
+    .site-main .brand .experience .years-area,
+    .site-main .brand .experience .call-area{
+        padding: 1rem 0 0;
+        margin: auto;
+        width: auto;
+    }
+}
