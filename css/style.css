@@ -161,10 +161,13 @@
 .site-main .brand .experience .years-area {
     /*background: url("../img/client-info-bg.png") no-repeat 100px 20px;*/
     /*background-size: 350px;*/
-    width: 40rem;
-    height: 15rem;
-    padding: 2rem 0 2rem 10rem;
-    position: relative;
+    /*width: 40rem;*/
+    /*height: 15rem;*/
+    /*padding: 2rem 0 2rem 10rem;*/
+    /*position: relative;*/
+    padding: 2rem 0 5rem;
+    margin: auto;
+    width: auto;
 }
 
 .site-main .brand .experience .years-area .years{
@@ -178,8 +181,11 @@
 }
 
 .site-main .brand .experience .call-area {
-    padding-left: 10rem;
+    /*padding-left: 10rem;*/
     /*border: black solid 2px;*/
+    padding: 1rem 0 0;
+    margin: auto;
+    width: auto;
 }
 
 .site-main .brand .experience .call-area .h4{
