@@ -46,7 +46,7 @@
 
 .para {
     color: var(--text-color);
-    font: normal 500 16px/25px var(--langar);
+    font: normal 500 16px/25px var(--roboto);
 }
 
 .font-langar{
@@ -54,8 +54,8 @@
 }
 
 button:focus,
-button:active
-button:hover
+button:active,
+button:hover,
 .btn:active,
 .btn.active{
     outline: 0 !important;
@@ -63,7 +63,7 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 39px/40px var(--langar);
+    font: normal bold 35px/40px var(--langar);
 }
 
 .navbar_fixed {
@@ -75,5 +75,5 @@ button:hover
     background: white;
     box-shadow: var(--box-shadow);
     z-index: 999;
-    transition: background 2s ease;
+    transition: transform 2s ease;
 }
