@@ -22,12 +22,12 @@
         letter-spacing: 10px;
     }
 
-    .site-main .brand-area .experience-area .years-area{
+    .site-main .brand .experience-area .years-area{
         padding-left: 1%;
         width: 49%;
     }
 
-    .site-main .brand-area .experience-area .call-area{
+    .site-main .brand .experience-area .call-area{
         padding-left: 3%;
     }
 
@@ -49,7 +49,7 @@
         max-width: 90%;
     }
 
-    .site-main .brand-area,
+    .site-main .brand,
     .site-main .services-area .services-title,
     .site-main .about-area{
         padding: 3% 4%;
@@ -59,6 +59,16 @@
 @media only screen and (min-width: 1px) and (max-width: 992px) {
     .site-main .site-banner .site-title h3{
         padding-top: 0;
+        font-size: 5rem;
+    }
+
+    .site-main .site-banner .site-title h1{
+        padding-top: 1.5rem;
+        font-size: 8rem;
+    }
+
+    .site-main .site-banner .site-title h4{
+        font-size: 2rem;
     }
 
     .site-main .site-banner .site-title{
@@ -98,5 +108,54 @@
         padding: 1rem 0 0;
         margin: auto;
         width: auto;
+    }
+
+    .para{
+        font: normal 500 35px/45px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p {
+        padding: 1rem 0 0;
+    }
+
+    .button{
+        font: normal 500 40px/50px var(--langar);
+    }
+
+    .site-main .about-area .about-title h2 > span,
+    .site-main .services-area .services-title h1,
+    .title-h1,
+    footer.footer-area .social h5 {
+        font: normal bold 65px/75px var(--langar);
+    }
+
+    .site-main .services-area .container .row .para{
+        padding-top: 1.5rem;
+    }
+
+    h5,
+    .site-main .about-area .client .about-client h4{
+        font-size: 2rem;
+    }
+
+    .site-main .services-area .card-text,
+    .site-main .project-area .our-project .text-secondary{
+        font-size: 1.5rem;
+    }
+
+    .site-main > .services-area .services {
+        width: 20rem;
+    }
+
+    .site-main .project-area .button-group button {
+        font: normal 500 30px/100px var(--langar);
+    }
+
+    .site-main .project-area .grid .our-project > .title h4 {
+        font: normal 700 35px/45px var(--langar);
+    }
+
+    .site-main .about-area .client .about-client p{
+        font: normal 500 25px/35px var(--roboto);
     }
 }
