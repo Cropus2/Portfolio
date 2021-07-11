@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <title>Cropus Portfolio</title>
 
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/63cf9cd5c8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
@@ -68,7 +71,7 @@
                         <h4 class="title-text text-uppercase">Junior Java Developer</h4>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap justify-content-center">
-                                <button type="button" class="btn button primary-button me-4 text-uppercase"><a href="#footer">hire me</a></button>
+                                <button type="button" class="btn button primary-button me-4 text-uppercase"><a href="#footer">contact me</a></button>
                                 <button type="button" class="btn button secondary-button text-uppercase"><a href="./files/CV.pdf" download>get cv</a></button>
                             </div>
                         </div>
@@ -104,11 +107,13 @@
                                 в DELL_EMC. На данный момент окончил 3 курс ИТМО по программе
                                 "Информационные системы и технологии"(бюджет).</p>
                             <p class="para">Люблю читать, в последнее время перешёл на книги английских
-                                авторов в оригинале (серия Harry Potter). Приэтом за прошедшие 2 недели читал столько документов
-                                (picocli, marvin framework, thumbnailator, bootstrap, owl-carousel, magnific popup),
+                                авторов в оригинале (серия Harry Potter). Но за последний месяц читал столько документов
+                                (spring, picocli, marvin framework, thumbnailator, bootstrap, owl-carousel, magnific popup),
                                 что правильнее будет сказать: "перешёл на техническую документацию".</p>
                             <p class="para">Этим летом в планах побороть себя и устроиться по специальности:
                                 пока жду результатов отбора в Deutsche Bank и МТС.</p>
+                            <p class="para">UPD: Попал на учебный проект в МТС(20 ч/нед) и принял оффер от Deutsche Bank
+                            (40 ч/нед). Как я буду работать 60 часов в неделю? Понятия не имею</p>
                         </div>
                         <button type="button" class="btn button primary-button text-uppercase"><a href="./files/CV.pdf" download>Download CV</a></button>
                     </div>
@@ -122,6 +127,9 @@
 
         <section class="brand" id="brand">
             <div class="container">
+                <div class="project-title pb-1">
+                    <h1 class="text-uppercase title-h1 text-center">Technologies</h1>
+                </div>
                 <div class="row">
                     <div class="col-xl-6 col-lg-12 col-md-12">
                         <div class="first-row row">
@@ -206,8 +214,11 @@
                     <div class="col-lg-12 text-center services-title">
                         <h1 class="text-uppercase title-text">Skills</h1>
                         <p class="para">
-                            Меня интересуют C#, Java(Kotlin) и Python. Работал с Git, SQL, TeX. Способен написать простейшие скрипты на bash. Могу +-сверстать сайт, но на это уйдёт много времени; боюсь асинхронности JavaScript.
+                            Я умею: писать коды там всякие, мячик в кольцо бросать, говорить, слушать, ходить,
+                            думать, слышать, готовить, читать, пить, шутить(честное слово).
                         </p>
+                        <p class="para">Учусь: монтировать видео, кататься на скейте, писать коды там всякие,
+                        жить</p>
                     </div>
                 </div>
                 <div class="container services-list">
@@ -284,7 +295,6 @@
                     <button type="button" class="active" id="btn1">All</button>
                     <button type="button" data-filter=".me">Me</button>
                     <button type="button" data-filter=".friends">Friends</button>
-<!--                    <button type="button" data-filter=".art">Art</button>-->
                     <button type="button" data-filter=".home">Home</button>
                 </div>
 
@@ -341,19 +351,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item art">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p5.jpg">-->
-<!--                                    <img src="./img/portfolio/p5.jpg" alt="portfolio-5" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">Очень красивая змея</h4>-->
-<!--                                <span class="text-secondary">Art, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item home">
                         <div class="our-project">
                             <div class="img">
@@ -367,32 +364,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item art">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p7.jpg">-->
-<!--                                    <img src="./img/portfolio/p7.jpg" alt="portfolio-7" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">Просто красивое фото</h4>-->
-<!--                                <span class="text-secondary">Art, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item art">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p8.jpg">-->
-<!--                                    <img src="./img/portfolio/p8.jpg" alt="portfolio-8" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">Гостиница Калининград</h4>-->
-<!--                                <span class="text-secondary">Art, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">
                         <div class="our-project">
                             <div class="img">
@@ -406,32 +377,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p10.jpg">-->
-<!--                                    <img src="./img/portfolio/p10.jpg" alt="portfolio-10" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">Без комментариев</h4>-->
-<!--                                <span class="text-secondary">Friends, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item friends">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p11.jpg">-->
-<!--                                    <img src="./img/portfolio/p11.jpg" alt="portfolio-11" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">Алые паруса</h4>-->
-<!--                                <span class="text-secondary">Friends, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item home">
                         <div class="our-project">
                             <div class="img">
@@ -445,19 +390,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="col-lg-4 col-md-6 col-sm-12 element-item art">-->
-<!--                        <div class="our-project">-->
-<!--                            <div class="img">-->
-<!--                                <a class="test-popup-link" href="./img/portfolio/p13.jpg">-->
-<!--                                    <img src="./img/portfolio/p13.jpg" alt="portfolio-13" class="img-fluid">-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                            <div class="title py-4">-->
-<!--                                <h4 class="text-uppercase">А небо-то какое!</h4>-->
-<!--                                <span class="text-secondary">Art, Portfolio</span>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
                 </div>
             </div>
         </section>
@@ -577,7 +509,6 @@
 
 
     <script src="js/jquery.3.6.0.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="./vendor/isotope/isotope.min.js"></script>
     <script src="vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
     <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
